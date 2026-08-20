@@ -1,6 +1,0 @@
-email = input("Enter Email: ")
-
-if "@" in email and "." in email and email.index("@") < email.rindex("."):
-    print("Valid Email")
-else:
-    print("Invalid Email")
